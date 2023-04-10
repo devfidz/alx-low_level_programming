@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_binary base2 - prints the binary equivalent of a decimal number base 10
+ * print_binary2 - prints the binary equivalent of a decimal num base10
  * @n: number to print in binary
  */
-void print_binary(unsigned long int n)
+void print_binary2(unsigned long int n)
 {
 	int i, count = 0;
 	unsigned long int current;
