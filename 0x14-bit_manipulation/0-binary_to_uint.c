@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * binarys_to_uints - converts a binary base2 number to unsigned integer base 10
+ * bin_to_uint - converts a binary number to unsigned int
  * @b: string containing the binary number
  *
  * Return: the converted number
  */
-unsigned int binary_to_uint(const char *b)
+unsigned int bin_to_uint(const char *b)
 {
 	int i;
 	unsigned int dec_val = 0;
